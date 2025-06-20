@@ -13,5 +13,5 @@ A minimal desktop To-Do list app built with PyQt5 and Python. Supports:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/jithu004/todo-app.git
 cd todo-app
