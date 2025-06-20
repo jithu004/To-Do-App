@@ -1,22 +1,17 @@
 # ✅ PyQt5 To-Do List App
 
-A simple and clean To-Do List desktop app built using PyQt5 and Python.
+A minimal desktop To-Do list app built with PyQt5 and Python. Supports:
+- Adding tasks
+- Editing tasks
+- Deleting tasks
+- Saving tasks locally
 
-## 🧠 Features
-- Add tasks
-- Edit tasks
-- Delete tasks
-- Save tasks locally (in `my_list.txt`)
+## 📸 Screenshot
+![alt text](image.png)
 
-## 📦 Requirements
-- Python 3.x
-- PyQt5
-
-
-
-## 🚀 How to Run
+## 💻 How to Run
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jithu004/To-Do-App.git
-cd To-Do-App
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
