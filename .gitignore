@@ -1,0 +1,6 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore SQLite text file
+my_list.txt
