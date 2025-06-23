@@ -138,7 +138,7 @@ class ToDo(QWidget):
         LineEdit.setText(label.text())
 
         LineEdit.returnPressed.connect(lambda: self.save_edit(label, LineEdit,save_btn,edit_btn))
-        save_btn.clicked.connect(lambda: self.save_edit(label, LineEdit, edit_btn, save_btn))
+        save_btn.clicked.connect(lambda: self.save_edit(label, LineEdit, save_btn, edit_btn))
     
     def save_edit(self,label,LineEdit,save_btn,edit_btn):
         index =self.List.index(label.text())
@@ -146,8 +146,8 @@ class ToDo(QWidget):
         self.List[index]=label.text()
         label.show()
         LineEdit.hide()
-        edit_btn.show()
         save_btn.hide()
+        edit_btn.show()
         print(self.List)
 
     
